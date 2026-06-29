@@ -31,18 +31,21 @@ Key libraries:
 ```bash
 git clone https://github.com/mrzghasemiGit/OBCS.git
 cd OBCS
-2. Create and activate a virtual environment (recommended)
-bash
+```
+### 2. Create and activate a virtual environment (recommended)
+```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install dependencies
-bash
+```
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 📂 Data
 The simulator requires a PLY point cloud of a forest plot.
-You can download the full dataset (the Zagros coppice plot used in the paper) from:
+You can download the full dataset (the Zagros coppice plot used in the paper) from:(https://drive.iust.ac.ir/index.php/s/yBxsGFSBwKN83Rq)
 
-🔗 Download final_combined_scene.ply (https://drive.iust.ac.ir/index.php/s/yBxsGFSBwKN83Rq)
+🔗 Download final_combined_scene.ply 
 
 Place the file in the data/ folder and update the POINT_CLOUD_PATH variable in the notebook:
 
@@ -91,14 +94,8 @@ More figures are generated automatically in uav_simulation_output/evaluation/.
 📄 Citation
 If you use OBCS in your research, please cite the following paper:
 
-bibtex
-@article{ghasemi2026obcs,
-  title={OBCS: An Open-Source Simulator for Autonomous Below-Canopy UAV Inventory in Zagros Oak Coppice},
-  author={Ghasemi, Marziye and Latifi, Hooman and Iranmanesh, Yaghoub},
-  journal={},
-  year={2026},
-  note={Under review}
-}
+OBCS: An Open-Source Simulator for Autonomous Below-Canopy UAV Inventory in Zagros Oak Coppice,Ghasemi, Marziye and Latifi, Hooman and Iranmanesh, Yaghoub, Under review
+
 🤝 Contributing
 Contributions are welcome! If you have suggestions, bug reports, or want to add new features:
 
