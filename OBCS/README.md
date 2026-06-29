@@ -1,4 +1,4 @@
-markdown
+
 # OBCS: Open-source Below-Canopy Simulator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -41,19 +41,18 @@ source venv/bin/activate   # On Windows: venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-📂 Data
+### 📂 Data
 The simulator requires a PLY point cloud of a forest plot.
 You can download the full dataset (the Zagros coppice plot used in the paper) from:(https://drive.iust.ac.ir/index.php/s/yBxsGFSBwKN83Rq)
 
-🔗 Download final_combined_scene.ply 
+### 🔗 Download final_combined_scene.ply 
 
-Place the file in the data/ folder and update the POINT_CLOUD_PATH variable in the notebook:
+Place the file in the data folder and update the POINT_CLOUD_PATH variable in the notebook:
 
 python
 POINT_CLOUD_PATH = 'data/final_combined_scene.ply'
-Note: If you want to test the code quickly, a downsampled version (10% of points) is available in the data/sample/ folder.
 
-🚀 Usage
+### 🚀 Usage
 Launch Jupyter Notebook and run the main simulation:
 
 bash
@@ -74,7 +73,7 @@ Compute DRC and stem‑count for the plot.
 
 All outputs (videos, keyframes, trajectory logs, evaluation figures) are saved in the uav_simulation_output/ folder.
 
-📊 Example Results
+### 📊 Example Results
 On the full Zagros coppice point cloud, OBCS achieves:
 
 Metric	Value
@@ -86,17 +85,13 @@ DRC estimation R²	0.92
 Stem count exact match	82.9%
 For detailed results, please refer to the paper (see Citation).
 
-🖼️ Visualisation
-Top‑down trajectory	Keyframe example	Feature detection
-https://docs/images/trajectory.png	https://docs/images/keyframe.png	https://docs/images/features.png
-More figures are generated automatically in uav_simulation_output/evaluation/.
 
-📄 Citation
+### 📄 Citation
 If you use OBCS in your research, please cite the following paper:
 
-OBCS: An Open-Source Simulator for Autonomous Below-Canopy UAV Inventory in Zagros Oak Coppice,Ghasemi, Marziye and Latifi, Hooman and Iranmanesh, Yaghoub, Under review
+OBCS: An Open-Source Simulator for Autonomous Below-Canopy UAV Inventory in Zagros Oak Coppice, Ghasemi, Marziye, Latifi, Hooman, and Iranmanesh, Yaghoub, Under review
 
-🤝 Contributing
+### 🤝 Contributing
 Contributions are welcome! If you have suggestions, bug reports, or want to add new features:
 
 Open an Issue to discuss the change.
@@ -107,10 +102,10 @@ Submit a Pull Request with a clear description of your changes.
 
 Please ensure your code follows the existing style and passes the evaluation tests.
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-🙏 Acknowledgements
+### 🙏 Acknowledgements
 This work was supported by:
 
 Department of Photogrammetry and Remote Sensing, Faculty of Geodesy and Geomatics Engineering, K. N. Toosi University of Technology, Tehran, Iran
@@ -121,7 +116,7 @@ Iran National Science Foundation (INSF) under project No. 4028916.
 
 The dataset was collected as part of the Zagros forest monitoring programme (Ghasemi et al., 2025).
 
-📬 Contact
+### 📬 Contact
 For questions or collaborations, please contact:
 
 Marziye Ghasemi – mrzghasemi@iust.ac.ir
