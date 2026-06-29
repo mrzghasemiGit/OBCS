@@ -55,8 +55,9 @@ POINT_CLOUD_PATH = 'data/final_combined_scene.ply'
 ### 🚀 Usage
 Launch Jupyter Notebook and run the main simulation:
 
-bash
+```bash
 jupyter notebook notebooks/OBCS_simulator.ipynb
+```
 Run the cells sequentially. The notebook will:
 
 Load and preprocess the point cloud (outlier removal, DTM construction, trunk-zone upsampling).
@@ -77,12 +78,19 @@ All outputs (videos, keyframes, trajectory logs, evaluation figures) are saved i
 On the full Zagros coppice point cloud, OBCS achieves:
 
 Metric	Value
+
 Orbit coverage	97.2%
+
 Structural collisions	0
+
 Height‑above‑terrain RMSE	0.045 m
+
 RPE (1 m segments)	1.07 m
+
 DRC estimation R²	0.92
+
 Stem count exact match	82.9%
+
 For detailed results, please refer to the paper (see Citation).
 
 
