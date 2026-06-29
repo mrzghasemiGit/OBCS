@@ -31,11 +31,13 @@ Key libraries:
 ```bash
 git clone https://github.com/mrzghasemiGit/OBCS.git
 cd OBCS
-2. Create and activate a virtual environment (recommended)
+```
+### 2. Create and activate a virtual environment (recommended)
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-3. Install dependencies
+```
+### 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
